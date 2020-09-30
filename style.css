@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet");
+/*ко всей странице*/
+html,
+body {
+  margin: 0 auto;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-size: 1rem;
+  max-width: 1920px;
+  min-width: 320px;
+  height: 5159px;
+}
+/*К секциям*/
+.section, footer {
+    @media screen and (min-width: 1140px) {
+        width: 1920px;       
+    };
+    @media screen and (min-width: 960px) {
+        width: 960px;       
+    };
+    @media screen and (min-width: 720px) {
+        width: 720px;       
+    }
+    @media screen and (min-width: 540px) {
+        width: 540px;       
+    }
+    padding: 0;
+}
+
+/*Размер и цвет секций*/
+.mainSection {
+    background: #EEEFF1;
+    height: 13.64%;
+}  
+
+.aboutMe {
+    background:#F9F9F9;
+    height: 6.88%;
+}  
+.myProjects {
+    background: #34547A;
+    height: 4.8495%;
+}  
+.mySkills {
+    background: #F9F9F9;
+    height: 12.6574%;
+}  
+.howIWorks {
+    background: #EEEFF1;
+    height: 19.40298%;
+}  
+.myGallery {
+    background: #F9F9F9;
+    height: 19.209%;
+}  
+.vendors {
+    background: #F9F9F9;
+    height: 5.6794%;
+}  
+.contactForm {
+    background: #EEEFF1;
+    height: 14.7703%;
+}  
+footer {
+    background: #34547A;
+    height: 2.9075%;
+}  
+
+/*К контейнерам*/
+.container {
+    width: 1113px;
+    padding: 0;
+}
+
+
+/*К колонкам*/
+.logo_menu,
+.mainInfo {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.logo_menu {
+    margin-top: 57px;
+}
+
+.mainInfo {
+    margin-bottom: 146px;
+}
+
+.video{
+    margin-top: 25px;   
+}
+
+/*к row*/
+.row_2 {
+    margin-top: 162px;
+}
+
+/* Основное меню сайта */
+
+.navbar-nav li {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    margin-right: 25px;   
+}
+
+.nav-link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #000000;  
+    text-transform: uppercase;
+} 
+
+/*Кнопка "Напишите мне"*/
+.button_write {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+}
+
+/*Кнопка Отправить*/
+.contactFormRow button{
+    margin-top: 49px;
+}
+
+/*Шрифты*/
+h1,
+h2,
+p,
+.button {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.h1, h1 {
+    font-size: 3rem;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.copyright{
+    font-size: 1rem;
+    color: white;
+}
+
+.row_4{
+    color: white;
+}
+
+.copyright h3{
+    margin-bottom: 21px;
+}
+
+/*отступы в тесктах*/
+.howIworksText p{
+    margin-top: 25px;
+}
+
+.mySkillsList h2{
+    margin-bottom: 50px;
+}
+
+.aboutMeText h2{
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
